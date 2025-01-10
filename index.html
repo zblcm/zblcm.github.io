@@ -38,11 +38,12 @@
                 <div class="common_project_card">
                     <table><tr>
                         <td>
-                            <div class="common_text large">Foot</div>
-                            <div class="common_text large">Retargeting</div>
+                            <div class="common_text large">脚步触地稳定</div>
+                            <div class="common_text large">Foot Stability</div>
                             <br>
-                            <div class="common_text small">Left: before foot ground/stable filter.</div>
-                            <div class="common_text small">Right: after foot ground/stable filter.</div>
+                            <div class="common_text small">展示了通过输入的信号达成脚步与地面接触良好，动作稳定的模块。右边优化后的效果。</div>
+                            <div class="common_text small">Shows the motion before/after a module taking foot signal and stabilize foot motion.</div>
+                            <div class="common_text small">Right: after foot stability filter.</div>
                         </td>
                         <td style="padding-left:40px; width:50%;"><iframe width="560" height="315" src="https://www.youtube.com/embed/r4JCK32CUhY?si=F9IEfsejZRxq5RJh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
                     </tr></table>
@@ -50,14 +51,30 @@
                 <div class="common_project_card">
                     <table><tr>
                         <td>
-                            <div class="common_text large">Hand</div>
-                            <div class="common_text large">Retargeting</div>
+                            <div class="common_text large">双手交互优化</div>
+                            <div class="common_text large">Hand Interaction</div>
                             <br>
-                            <div class="common_text small">Top: before double hand optimization.</div>
+                            <div class="common_text small">展示了双手交互模块，修复了在肢体Retarget后，由于骨长差异带来的双手交互不正确的问题。下方的三个视频是修复双手交互之后的效果。</div>
+                            <div class="common_text small">Shows double hand interaction module, which fix wrong hand motion caused by bone length difference after body retargeting.</div>
                             <div class="common_text small">Bottom: after double hand optimization.</div>
+                            <br>
+                            <div class="common_text small">数据来自 innerhand.</div>
                             <div class="common_text small">Data from innerhand.</div>
                         </td>
                         <td style="padding-left:40px; width: 50%;"><iframe width="560" height="315" src="https://www.youtube.com/embed/ciLCF1gGVTk?si=njBcR1JzE1ACfrIx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
+                    </tr></table>
+                </div>
+                <div class="common_project_card">
+                    <table><tr>
+                        <td>
+                            <div class="common_text large">平滑</div>
+                            <div class="common_text large">Smoothing</div>
+                            <br>
+                            <div class="common_text small">展示了在线平滑算法，在有效消除跳变和抖动的同时，以低延迟保留了频率相对较高的拍手动作幅度。右侧是平滑模块之后的。</div>
+                            <div class="common_text small">Shows online smoothing module, which removes sudden transitions and jitter in motion while preserving the amplitude of the clapping movement with high frequency.</div>
+                            <div class="common_text small">Right: after smoothing.</div>
+                        </td>
+                        <td style="padding-left:40px; width: 50%;"><iframe width="560" height="315" src="https://www.youtube.com/embed/HtaoAToHRiQ?si=OHr0sV8sFBCAon2k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></td>
                     </tr></table>
                 </div>
 		</div>
